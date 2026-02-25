@@ -11,6 +11,6 @@ public class CSE_controller {
 	}
 	@GetMapping("/cse")
 	public String Dis2() {
-		return "Hi this is Nithin with Register Number: 23MH1A05L8";
+		return "Hi, this is Nithin with Register Number: 23MH1A05L8. Nice to meet you.";
 	}
 }
