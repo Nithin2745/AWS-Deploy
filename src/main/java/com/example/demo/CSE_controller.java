@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class CSE_controller {
 	@GetMapping("/home")
 	public String Dis() {
-		return "Welcome to CSE Jenkins from Aditya University";
+		return "Welcome to CSE Jenkins from Aditya University by Nithin";
 	}
 	@GetMapping("/cse")
 	public String Dis2() {
-		return "Hi, this is Nithin with Register Number: 23MH1A05L8. Nice to meet you";
+		return "Hi, this is Nithin with Register Number: 23MH1A05L8. Nice to meet you.";
 	}
 }
